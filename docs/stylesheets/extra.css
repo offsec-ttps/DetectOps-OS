@@ -1,0 +1,167 @@
+/* DetectOps docs — accent overrides + badges + tool grid */
+
+:root {
+  --do-red: #D9724C;
+  --do-teal: #4CA593;
+  --do-purple: #9689D6;
+  --do-blue: #5B9BD5;
+}
+
+/* Badges reused from the build manifest's category color coding */
+.cat-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.new-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #1E8E3E;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+[data-md-color-scheme="slate"] .new-badge {
+  background: #2FBF5D;
+  color: #06210F;
+}
+
+/* Card grid on category overview pages */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.tool-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem 1.1rem;
+  background: var(--md-code-bg-color);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.tool-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.02rem;
+}
+
+.tool-card h3 a {
+  text-decoration: none;
+}
+
+/* Homepage hero + stats + category grid */
+.hero {
+  text-align: center;
+  padding: 2.2rem 1rem 1.6rem;
+}
+
+.hero h1 {
+  font-size: 2.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.hero p {
+  font-size: 1.08rem;
+  color: var(--md-default-fg-color--light);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: center;
+  gap: 2.2rem;
+  margin: 1.6rem 0 0.4rem;
+  flex-wrap: wrap;
+}
+
+.stat-row .stat {
+  text-align: center;
+}
+
+.stat-row .stat .n {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+.stat-row .stat .l {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--md-default-fg-color--light);
+}
+
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.6rem 0;
+}
+
+.cat-grid .cat-tile {
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--tile-color, var(--md-primary-fg-color));
+  color: var(--md-default-fg-color);
+  background: var(--md-code-bg-color);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.cat-grid .cat-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.cat-grid .cat-tile .stretched-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.cat-grid .cat-tile .num {
+  font-family: var(--md-code-font);
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.cat-grid .cat-tile .name {
+  font-weight: 600;
+  margin: 0.15rem 0 0.3rem;
+}
+
+.cat-grid .cat-tile .count {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Screenshots: framed, centered, capped width for readability */
+.md-content img[alt$="screenshot"] {
+  border-radius: 10px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 8px 26px rgba(0,0,0,0.25);
+  max-width: 100%;
+  display: block;
+  margin: 1rem 0;
+}

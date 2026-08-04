@@ -1,0 +1,190 @@
+site_name: DetectOps Documentation
+site_description: >-
+  A Debian 12 (bookworm) live-build Detection Engineering OS — 94 tools across
+  10 categories, fully offline-capable after install.
+site_author: DetectOps
+# Set this to your real domain once DNS is pointed here, e.g. https://docs.detectops.dev
+site_url: https://offsec-ttps.github.io/DetectOps-OS/
+
+repo_url: https://github.com/offsec-ttps/DetectOps-OS
+repo_name: DetectOps-OS
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Tools:
+      - Attack Simulation:
+        - Overview: tools/attack-simulation/index.md
+        - CALDERA: tools/attack-simulation/caldera.md
+        - Splunk Attack Range — Local: tools/attack-simulation/splunk-attack-range-local.md
+        - Splunk Attack Range — Cloud: tools/attack-simulation/splunk-attack-range-cloud.md
+        - Atomic Red Team: tools/attack-simulation/atomic-red-team.md
+        - Invoke-AtomicRedTeam: tools/attack-simulation/invoke-atomicredteam.md
+        - powershell-yaml: tools/attack-simulation/powershell-yaml.md
+        - PurpleSharp: tools/attack-simulation/purplesharp.md
+        - Infection Monkey: tools/attack-simulation/infection-monkey.md
+        - Stratus Red Team: tools/attack-simulation/stratus-red-team.md
+        - Metasploit Framework: tools/attack-simulation/metasploit-framework.md
+        - Prelude Operator: tools/attack-simulation/prelude-operator.md
+        - Leonidas: tools/attack-simulation/leonidas.md
+        - msInvader: tools/attack-simulation/msinvader.md
+        - "RedCloudOS Goat Labs": tools/attack-simulation/vulnerable-cloudk8sci-cd-labs-redcloudos-goat-set.md
+      - Detection Engineering:
+        - Overview: tools/detection-engineering/index.md
+        - Sigma: tools/detection-engineering/sigma.md
+        - Sigma specification: tools/detection-engineering/sigma-specification.md
+        - pySigma + sigma-cli: tools/detection-engineering/pysigma-sigma-cli.md
+        - YARA: tools/detection-engineering/yara.md
+        - YARA-X: tools/detection-engineering/yara-x.md
+        - osquery: tools/detection-engineering/osquery.md
+      - Threat Hunting & Endpoint Analysis:
+        - Overview: tools/threat-hunting-endpoint-analysis/index.md
+        - Velociraptor: tools/threat-hunting-endpoint-analysis/velociraptor.md
+        - Hayabusa: tools/threat-hunting-endpoint-analysis/hayabusa.md
+        - Chainsaw: tools/threat-hunting-endpoint-analysis/chainsaw.md
+        - Zircolite: tools/threat-hunting-endpoint-analysis/zircolite.md
+        - Plaso (log2timeline): tools/threat-hunting-endpoint-analysis/plaso-log2timeline.md
+        - Volatility3: tools/threat-hunting-endpoint-analysis/volatility3.md
+        - Sysmon config: tools/threat-hunting-endpoint-analysis/sysmon-config.md
+        - Sysinternals suite: tools/threat-hunting-endpoint-analysis/sysinternals-suite.md
+      - Logging & SIEM:
+        - Overview: tools/logging-siem/index.md
+        - Fluent Bit: tools/logging-siem/fluent-bit.md
+        - Grafana: tools/logging-siem/grafana.md
+        - Vector: tools/logging-siem/vector.md
+        - Loki: tools/logging-siem/loki.md
+        - Splunk Universal Forwarder: tools/logging-siem/splunk-universal-forwarder.md
+        - Elastic + Kibana: tools/logging-siem/elastic-kibana.md
+        - OpenSearch + Dashboards: tools/logging-siem/opensearch-dashboards.md
+        - Wazuh: tools/logging-siem/wazuh.md
+        - Graylog: tools/logging-siem/graylog.md
+        - Arkime: tools/logging-siem/arkime.md
+      - Network Security:
+        - Overview: tools/network-security/index.md
+        - Zeek: tools/network-security/zeek.md
+        - Suricata + ET Open rules: tools/network-security/suricata-et-open-rules.md
+        - Wireshark / tshark / tcpdump: tools/network-security/wireshark-tshark-tcpdump.md
+        - Brim / Zui: tools/network-security/brim-zui.md
+        - Maltrail: tools/network-security/maltrail.md
+      - Malware & Forensics:
+        - Overview: tools/malware-forensics/index.md
+        - CAPA: tools/malware-forensics/capa.md
+        - FLOSS: tools/malware-forensics/floss.md
+        - Detect It Easy (DIE): tools/malware-forensics/detect-it-easy-die.md
+        - PEStudio: tools/malware-forensics/pestudio.md
+        - CyberChef: tools/malware-forensics/cyberchef.md
+        - Binwalk: tools/malware-forensics/binwalk.md
+        - Autopsy / Sleuth Kit: tools/malware-forensics/autopsy-sleuth-kit.md
+      - AD & Enterprise Security:
+        - Overview: tools/ad-enterprise-security/index.md
+        - Impacket: tools/ad-enterprise-security/impacket.md
+        - Certipy: tools/ad-enterprise-security/certipy.md
+        - BloodHound CE: tools/ad-enterprise-security/bloodhound-ce.md
+        - Mimikatz: tools/ad-enterprise-security/mimikatz.md
+        - PingCastle: tools/ad-enterprise-security/pingcastle.md
+        - AD Explorer: tools/ad-enterprise-security/ad-explorer.md
+      - Cloud & Kubernetes Security:
+        - Overview: tools/cloud-kubernetes-security/index.md
+        - ScoutSuite: tools/cloud-kubernetes-security/scoutsuite.md
+        - Prowler: tools/cloud-kubernetes-security/prowler.md
+        - Cloudsplaining: tools/cloud-kubernetes-security/cloudsplaining.md
+        - kube-hunter: tools/cloud-kubernetes-security/kube-hunter.md
+        - Trivy: tools/cloud-kubernetes-security/trivy.md
+        - kube-bench: tools/cloud-kubernetes-security/kube-bench.md
+        - whoAMI-scanner: tools/cloud-kubernetes-security/whoami-scanner.md
+        - EKSHolmes: tools/cloud-kubernetes-security/eksholmes.md
+        - AzureHound: tools/cloud-kubernetes-security/azurehound.md
+        - cloudfox: tools/cloud-kubernetes-security/cloudfox.md
+        - CloudBrute: tools/cloud-kubernetes-security/cloudbrute.md
+        - peirates: tools/cloud-kubernetes-security/peirates.md
+        - gitleaks: tools/cloud-kubernetes-security/gitleaks.md
+        - Pacu: tools/cloud-kubernetes-security/pacu.md
+        - roadtx: tools/cloud-kubernetes-security/roadtx.md
+        - Cartography: tools/cloud-kubernetes-security/cartography.md
+        - PMapper: tools/cloud-kubernetes-security/pmapper.md
+        - heimdall: tools/cloud-kubernetes-security/heimdall.md
+        - GCPBucketBrute: tools/cloud-kubernetes-security/gcpbucketbrute.md
+        - GCPTokenReuse: tools/cloud-kubernetes-security/gcptokenreuse.md
+        - gcp_scanner: tools/cloud-kubernetes-security/gcp-scanner.md
+        - KubiScan: tools/cloud-kubernetes-security/kubiscan.md
+        - AWeSomeUserFinder: tools/cloud-kubernetes-security/awesomeuserfinder.md
+        - Oh365UserFinder: tools/cloud-kubernetes-security/oh365userfinder.md
+        - cloud_enum: tools/cloud-kubernetes-security/cloud-enum.md
+      - Dev / Scripting Toolchain:
+        - Overview: tools/dev-scripting-toolchain/index.md
+        - Python 3: tools/dev-scripting-toolchain/python-3.md
+        - PowerShell 7: tools/dev-scripting-toolchain/powershell-7.md
+        - Go: tools/dev-scripting-toolchain/go.md
+        - Rust / Cargo: tools/dev-scripting-toolchain/rust-cargo.md
+        - Docker + docker-compose + Podman: tools/dev-scripting-toolchain/docker-docker-compose-podman.md
+        - Git + GitHub CLI: tools/dev-scripting-toolchain/git-github-cli.md
+        - Visual Studio Code: tools/dev-scripting-toolchain/visual-studio-code.md
+        - jq / yq: tools/dev-scripting-toolchain/jq-yq.md
+      - Security Utilities:
+        - Overview: tools/security-utilities/index.md
+        - Nmap / Masscan: tools/security-utilities/nmap-masscan.md
+        - Gobuster / dirb / ffuf: tools/security-utilities/gobuster-dirb-ffuf.md
+        - SQLMap / Nikto: tools/security-utilities/sqlmap-nikto.md
+        - John the Ripper / Hashcat: tools/security-utilities/john-the-ripper-hashcat.md
+        - Hydra: tools/security-utilities/hydra.md
+  - Limitations & Manual Steps: limitations.md
