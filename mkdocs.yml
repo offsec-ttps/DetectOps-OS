@@ -3,8 +3,7 @@ site_description: >-
   A Debian 12 (bookworm) live-build Detection Engineering OS — 94 tools across
   10 categories, fully offline-capable after install.
 site_author: DetectOps
-# Set this to your real domain once DNS is pointed here, e.g. https://docs.detectops.dev
-site_url: https://offsec-ttps.github.io/DetectOps-OS/
+site_url: https://docs.rusecure.in/
 
 repo_url: https://github.com/offsec-ttps/DetectOps-OS
 repo_name: DetectOps-OS
