@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://docs.rusecure.in/
+    about: Read the full docs before filing an issue — your question may already be answered there.
+  - name: General discussion / questions
+    url: https://github.com/offsec-ttps/DetectOps-OS/discussions
+    about: Not a bug or install failure? Ask here instead of opening an issue.

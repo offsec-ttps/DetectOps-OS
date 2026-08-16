@@ -4,6 +4,10 @@ DetectOps ships as a bootable Debian 12 (bookworm) live ISO. Boot it, install
 it, or run it as a VM — every tool listed under [Tools](tools/attack-simulation/index.md)
 is already baked in.
 
+Installing for the first time, or hit something unexpected? See
+[Troubleshooting](troubleshooting.md) for verified environments, checksum
+verification, and known install issues.
+
 ## Quick start
 
 | | |

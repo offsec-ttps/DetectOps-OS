@@ -74,6 +74,7 @@ plugins:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Troubleshooting: troubleshooting.md
   - Tools:
       - Attack Simulation:
         - Overview: tools/attack-simulation/index.md
