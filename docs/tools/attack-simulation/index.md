@@ -30,7 +30,7 @@ Vagrant+Ansible lab builder — Windows DC/Server, Splunk Server, Kali, CALDERA/
 
 <span class="cat-badge" style="background:#D9724C">lab / aws</span>
 
-Same lab concept as the Local variant, provisioned as real AWS infrastructure via Terraform instead. Added via the local-tools pipeline.
+Same lab concept as the Local variant, provisioned as real AWS infrastructure via Terraform instead — not a container, nothing runs locally. Added via the local-tools pipeline.
 
 </div>
 
