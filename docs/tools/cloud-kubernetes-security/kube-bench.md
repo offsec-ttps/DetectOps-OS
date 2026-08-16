@@ -16,6 +16,10 @@ Checks a cluster against the CIS Kubernetes Benchmark.
 kube-bench run
 ```
 
+## Reference
+
+[https://github.com/aquasecurity/kube-bench](https://github.com/aquasecurity/kube-bench)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

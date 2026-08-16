@@ -12,6 +12,10 @@ Scans an AWS account for the "whoAMI" AMI name-confusion attack (Datadog).
 whoami-scanner
 ```
 
+## Reference
+
+[https://github.com/DataDog/whoAMI-scanner](https://github.com/DataDog/whoAMI-scanner)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

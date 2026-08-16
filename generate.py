@@ -26,6 +26,122 @@ CAT_COLORS = {
     6: "#B478A6", 7: "#8291B8", 8: "#4FB4BE", 9: "#C2A544", 10: "#C6768E",
 }
 
+# Reference link for each tool's official upstream repo/homepage, keyed by
+# the same slug generate.py produces from the manifest's tool name. Sourced
+# from the actual clone_or_update/github_latest_asset URLs baked into
+# config/hooks/live/*.hook.chroot wherever a hook exists (so it matches
+# exactly what's vendored on disk, not just "whatever repo has that name" -
+# e.g. kubiscan/pmapper/eksholmes point at the RedCloudOS forks actually
+# installed, not the original upstream projects they were forked from).
+# Tools with no single canonical repo (apt packages, language toolchains,
+# closed-source freeware) link to the official project homepage instead.
+REFERENCE_URLS = {
+    # Attack Simulation
+    "caldera": "https://github.com/apache/caldera",
+    "splunk-attack-range-local": "https://github.com/splunk/attack_range_local",
+    "splunk-attack-range-cloud": "https://github.com/splunk/attack_range_cloud",
+    "atomic-red-team": "https://github.com/redcanaryco/atomic-red-team",
+    "invoke-atomicredteam": "https://github.com/redcanaryco/invoke-atomicredteam",
+    "powershell-yaml": "https://github.com/cloudbase/powershell-yaml",
+    "purplesharp": "https://github.com/mvelazc0/PurpleSharp",
+    "infection-monkey": "https://github.com/guardicore/monkey",
+    "stratus-red-team": "https://github.com/DataDog/stratus-red-team",
+    "metasploit-framework": "https://github.com/rapid7/metasploit-framework",
+    "prelude-operator": "https://www.prelude.org/",
+    "leonidas": "https://github.com/ReversecLabs/leonidas",
+    "msinvader": "https://github.com/mvelazc0/msInvader",
+    "vulnerable-cloudk8sci-cd-labs-redcloudos-goat-set": "https://github.com/RedCloudOS/vm-packages",
+    # Detection Engineering
+    "sigma": "https://github.com/SigmaHQ/sigma",
+    "sigma-specification": "https://github.com/SigmaHQ/sigma-specification",
+    "pysigma-sigma-cli": "https://github.com/SigmaHQ/pySigma",
+    "yara": "https://github.com/VirusTotal/yara",
+    "yara-x": "https://github.com/VirusTotal/yara-x",
+    "osquery": "https://github.com/osquery/osquery",
+    # Threat Hunting & Endpoint Analysis
+    "velociraptor": "https://github.com/Velocidex/velociraptor",
+    "hayabusa": "https://github.com/Yamato-Security/hayabusa",
+    "chainsaw": "https://github.com/WithSecureLabs/chainsaw",
+    "zircolite": "https://github.com/wagga40/Zircolite",
+    "plaso-log2timeline": "https://github.com/log2timeline/plaso",
+    "volatility3": "https://github.com/volatilityfoundation/volatility3",
+    "sysmon-config": "https://github.com/SwiftOnSecurity/sysmon-config",
+    "sysinternals-suite": "https://learn.microsoft.com/en-us/sysinternals/",
+    # Logging & SIEM
+    "fluent-bit": "https://github.com/fluent/fluent-bit",
+    "grafana": "https://github.com/grafana/grafana",
+    "vector": "https://github.com/vectordotdev/vector",
+    "loki": "https://github.com/grafana/loki",
+    "splunk-universal-forwarder": "https://www.splunk.com/en_us/download/universal-forwarder.html",
+    "elastic-kibana": "https://github.com/elastic/kibana",
+    "opensearch-dashboards": "https://github.com/opensearch-project/OpenSearch",
+    "wazuh": "https://github.com/wazuh/wazuh-docker",
+    "graylog": "https://github.com/Graylog2/graylog2-server",
+    "arkime": "https://github.com/arkime/arkime",
+    # Network Security
+    "zeek": "https://github.com/zeek/zeek",
+    "suricata-et-open-rules": "https://github.com/OISF/suricata",
+    "wireshark-tshark-tcpdump": "https://www.wireshark.org/",
+    "brim-zui": "https://github.com/brimdata/zui",
+    "maltrail": "https://github.com/stamparm/maltrail",
+    # Malware & Forensics
+    "capa": "https://github.com/mandiant/capa",
+    "floss": "https://github.com/mandiant/flare-floss",
+    "detect-it-easy-die": "https://github.com/horsicq/Detect-It-Easy",
+    "pestudio": "https://www.winitor.com/",
+    "cyberchef": "https://github.com/gchq/CyberChef",
+    "binwalk": "https://github.com/ReFirmLabs/binwalk",
+    "autopsy-sleuth-kit": "https://github.com/sleuthkit/autopsy",
+    # AD & Enterprise Security
+    "impacket": "https://github.com/fortra/impacket",
+    "certipy": "https://github.com/ly4k/Certipy",
+    "bloodhound-ce": "https://github.com/SpecterOps/BloodHound",
+    "mimikatz": "https://github.com/gentilkiwi/mimikatz",
+    "pingcastle": "https://github.com/vletoux/PingCastle",
+    "ad-explorer": "https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer",
+    # Cloud & Kubernetes Security
+    "scoutsuite": "https://github.com/nccgroup/ScoutSuite",
+    "prowler": "https://github.com/prowler-cloud/prowler",
+    "cloudsplaining": "https://github.com/salesforce/cloudsplaining",
+    "kube-hunter": "https://github.com/aquasecurity/kube-hunter",
+    "trivy": "https://github.com/aquasecurity/trivy",
+    "kube-bench": "https://github.com/aquasecurity/kube-bench",
+    "whoami-scanner": "https://github.com/DataDog/whoAMI-scanner",
+    "eksholmes": "https://github.com/RedCloudOS/EKSHolmes",
+    "azurehound": "https://github.com/SpecterOps/AzureHound",
+    "cloudfox": "https://github.com/BishopFox/cloudfox",
+    "cloudbrute": "https://github.com/0xsha/CloudBrute",
+    "peirates": "https://github.com/inguardians/peirates",
+    "gitleaks": "https://github.com/gitleaks/gitleaks",
+    "pacu": "https://github.com/RhinoSecurityLabs/pacu",
+    "roadtx": "https://github.com/dirkjanm/ROADtools",
+    "cartography": "https://github.com/cartography-cncf/cartography",
+    "pmapper": "https://github.com/RedCloudOS/PMapper",
+    "heimdall": "https://github.com/RedCloudOS/heimdall",
+    "gcpbucketbrute": "https://github.com/RedCloudOS/GCPBucketBrute",
+    "gcptokenreuse": "https://github.com/RedCloudOS/GCPTokenReuse",
+    "gcp-scanner": "https://github.com/RedCloudOS/gcp_scanner",
+    "kubiscan": "https://github.com/RedCloudOS/KubiScan",
+    "awesomeuserfinder": "https://github.com/RedCloudOS/AWeSomeUserFinder",
+    "oh365userfinder": "https://github.com/RedCloudOS/Oh365UserFinder",
+    "cloud-enum": "https://github.com/RedCloudOS/cloud_enum",
+    # Dev / Scripting Toolchain
+    "python-3": "https://www.python.org/",
+    "powershell-7": "https://github.com/PowerShell/PowerShell",
+    "go": "https://go.dev/",
+    "rust-cargo": "https://www.rust-lang.org/",
+    "docker-docker-compose-podman": "https://docs.docker.com/",
+    "git-github-cli": "https://cli.github.com/",
+    "visual-studio-code": "https://github.com/microsoft/vscode",
+    "jq-yq": "https://github.com/mikefarah/yq",
+    # Security Utilities
+    "nmap-masscan": "https://nmap.org/",
+    "gobuster-dirb-ffuf": "https://github.com/OJ/gobuster",
+    "sqlmap-nikto": "https://github.com/sqlmapproject/sqlmap",
+    "john-the-ripper-hashcat": "https://github.com/openwall/john",
+    "hydra": "https://github.com/vanhauser-thc/thc-hydra",
+}
+
 
 def slugify(text):
     text = re.sub(r"&amp;", "and", text)
@@ -151,6 +267,12 @@ def write_tool_page(cat, entry, shot_rel):
 
     for kind, text in entry["notes"]:
         lines += [render_note(kind, text), ""]
+
+    ref_url = REFERENCE_URLS.get(entry["slug"])
+    if ref_url:
+        lines += ["## Reference", "", f'[{ref_url}]({ref_url})', ""]
+    else:
+        print(f'WARNING: no REFERENCE_URLS entry for slug "{entry["slug"]}" ({entry["name"]})')
 
     lines += [
         "---",

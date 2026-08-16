@@ -10,6 +10,10 @@ SigmaHQ's full rule corpus and tooling — a real git clone, so edit and branch 
 
 `/opt/detectops/detection-engineering/sigma`
 
+## Reference
+
+[https://github.com/SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)
+
 ---
 
 *Part of the **Detection Engineering** toolset in DetectOps.*

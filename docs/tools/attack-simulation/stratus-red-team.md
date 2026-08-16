@@ -16,6 +16,10 @@ DataDog's granular attack-technique emulation for AWS/Azure/GCP/K8s.
 stratus detonate aws.credential-access.ec2-get-password-data
 ```
 
+## Reference
+
+[https://github.com/DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

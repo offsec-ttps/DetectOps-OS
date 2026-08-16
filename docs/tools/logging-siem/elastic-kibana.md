@@ -14,6 +14,10 @@ Not pre-pulled (multi-GB images) — a ready compose file is staged instead.
     first `docker-compose up -d` needs internet to pull images
 
 
+## Reference
+
+[https://github.com/elastic/kibana](https://github.com/elastic/kibana)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

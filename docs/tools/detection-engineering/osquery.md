@@ -12,6 +12,10 @@ SQL-queryable endpoint telemetry — ask the OS questions like a database.
 osqueryi
 ```
 
+## Reference
+
+[https://github.com/osquery/osquery](https://github.com/osquery/osquery)
+
 ---
 
 *Part of the **Detection Engineering** toolset in DetectOps.*

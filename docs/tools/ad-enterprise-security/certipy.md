@@ -16,6 +16,10 @@ Finds and abuses AD Certificate Services (ESC1-style) misconfigurations.
 certipy-venv/bin/certipy find -u user@domain -p pass -dc-ip dc-ip
 ```
 
+## Reference
+
+[https://github.com/ly4k/Certipy](https://github.com/ly4k/Certipy)
+
 ---
 
 *Part of the **AD & Enterprise Security** toolset in DetectOps.*

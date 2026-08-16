@@ -12,6 +12,10 @@ BloodHound-style attack-path data collector for Entra ID/Azure (SpecterOps).
 azurehound list --refresh-token <token> -o output.json
 ```
 
+## Reference
+
+[https://github.com/SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

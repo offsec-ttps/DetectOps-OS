@@ -12,6 +12,10 @@ Cross-platform pwsh, pre-loaded with the Atomic Red Team profile.
 pwsh
 ```
 
+## Reference
+
+[https://github.com/PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
+
 ---
 
 *Part of the **Dev / Scripting Toolchain** toolset in DetectOps.*

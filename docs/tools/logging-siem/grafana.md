@@ -16,6 +16,10 @@ sudo systemctl start grafana-server
     browse `http://<vm-ip>:3000` — first login `admin/admin`, forces a reset
 
 
+## Reference
+
+[https://github.com/grafana/grafana](https://github.com/grafana/grafana)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

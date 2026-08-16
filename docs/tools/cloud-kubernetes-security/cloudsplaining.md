@@ -16,6 +16,10 @@ Flags risky AWS IAM policies (privilege escalation, wildcard actions).
 cloudsplaining-venv/bin/cloudsplaining scan --profile default
 ```
 
+## Reference
+
+[https://github.com/salesforce/cloudsplaining](https://github.com/salesforce/cloudsplaining)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

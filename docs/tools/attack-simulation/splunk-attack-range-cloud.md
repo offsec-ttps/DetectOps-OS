@@ -22,6 +22,10 @@ python cloud_attack_range.py configure && python cloud_attack_range.py build
     provisions real, billable AWS resources (EC2, EKS) — always run `python cloud_attack_range.py destroy` when finished
 
 
+## Reference
+
+[https://github.com/splunk/attack_range_cloud](https://github.com/splunk/attack_range_cloud)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

@@ -20,6 +20,10 @@ dotnet build -c Release   # .NET SDK required
     install a .NET SDK first — not bundled
 
 
+## Reference
+
+[https://github.com/mvelazc0/PurpleSharp](https://github.com/mvelazc0/PurpleSharp)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

@@ -14,6 +14,10 @@
     none are deployed at build time — each provisions real, billable cloud infra (or, for Kubernetes Goat / CI/CD Goat, local Docker) via its own script using your own credentials; always run its teardown step when done. See goats/README.txt
 
 
+## Reference
+
+[https://github.com/RedCloudOS/vm-packages](https://github.com/RedCloudOS/vm-packages)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

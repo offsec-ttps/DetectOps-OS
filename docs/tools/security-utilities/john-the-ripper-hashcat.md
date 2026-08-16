@@ -12,6 +12,10 @@ Offline password/hash cracking, CPU (John) and GPU (Hashcat).
 hashcat -m 1000 hashes.txt wordlist.txt
 ```
 
+## Reference
+
+[https://github.com/openwall/john](https://github.com/openwall/john)
+
 ---
 
 *Part of the **Security Utilities** toolset in DetectOps.*

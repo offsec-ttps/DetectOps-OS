@@ -16,6 +16,10 @@ Memory-forensics framework for analyzing RAM captures.
 source venv/bin/activate && vol -f memory.dmp windows.pslist
 ```
 
+## Reference
+
+[https://github.com/volatilityfoundation/volatility3](https://github.com/volatilityfoundation/volatility3)
+
 ---
 
 *Part of the **Threat Hunting & Endpoint Analysis** toolset in DetectOps.*

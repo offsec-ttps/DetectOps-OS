@@ -16,6 +16,10 @@ Scans a Kubernetes cluster for risky RBAC roles/bindings and risky pods.
 source venv/bin/activate && python KubiScan.py
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/KubiScan](https://github.com/RedCloudOS/KubiScan)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

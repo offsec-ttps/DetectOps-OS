@@ -12,6 +12,10 @@ Enumerates AWS EKS clusters (RedCloudOS's own tool). No upstream release exists 
 eksholmes
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/EKSHolmes](https://github.com/RedCloudOS/EKSHolmes)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

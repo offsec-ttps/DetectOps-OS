@@ -12,6 +12,10 @@ For editing Sigma rules, hooks, and everything else in this manifest.
 code .
 ```
 
+## Reference
+
+[https://github.com/microsoft/vscode](https://github.com/microsoft/vscode)
+
 ---
 
 *Part of the **Dev / Scripting Toolchain** toolset in DetectOps.*

@@ -17,6 +17,10 @@ menu → 3, or:
 source venv/bin/activate && python3 zircolite.py --evtx ./logs
 ```
 
+## Reference
+
+[https://github.com/wagga40/Zircolite](https://github.com/wagga40/Zircolite)
+
 ---
 
 *Part of the **Threat Hunting & Endpoint Analysis** toolset in DetectOps.*

@@ -20,6 +20,10 @@ source venv/bin/activate && python pmapper.py graph create
     only requirements.txt gets installed (not a full package install), so use the bundled `pmapper.py` wrapper — a bare `pmapper` command isn't registered
 
 
+## Reference
+
+[https://github.com/RedCloudOS/PMapper](https://github.com/RedCloudOS/PMapper)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

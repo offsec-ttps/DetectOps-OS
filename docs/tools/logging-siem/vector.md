@@ -12,6 +12,10 @@ Observability data pipeline — route logs/metrics between anything.
 vector --config vector.toml
 ```
 
+## Reference
+
+[https://github.com/vectordotdev/vector](https://github.com/vectordotdev/vector)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

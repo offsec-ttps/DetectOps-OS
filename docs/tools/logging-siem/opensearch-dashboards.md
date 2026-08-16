@@ -14,6 +14,10 @@ Same policy as Elastic — staged compose, pulled on demand.
     first run needs internet
 
 
+## Reference
+
+[https://github.com/opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

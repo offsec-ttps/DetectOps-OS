@@ -14,6 +14,10 @@ AD security/risk-assessment scoring — staged, Windows-only.
     run on a domain-joined Windows host
 
 
+## Reference
+
+[https://github.com/vletoux/PingCastle](https://github.com/vletoux/PingCastle)
+
 ---
 
 *Part of the **AD & Enterprise Security** toolset in DetectOps.*

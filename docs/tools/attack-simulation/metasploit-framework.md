@@ -12,6 +12,10 @@ Installed system-wide via Rapid7's own installer, fully baked in.
 msfconsole
 ```
 
+## Reference
+
+[https://github.com/rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

@@ -16,6 +16,10 @@ Fast Windows event-log hunting with built-in Sigma-based detection rules.
 hayabusa csv-timeline -d ./evtx_dir -o results.csv
 ```
 
+## Reference
+
+[https://github.com/Yamato-Security/hayabusa](https://github.com/Yamato-Security/hayabusa)
+
 ---
 
 *Part of the **Threat Hunting & Endpoint Analysis** toolset in DetectOps.*

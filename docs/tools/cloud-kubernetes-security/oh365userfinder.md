@@ -16,6 +16,10 @@ Office 365 / Entra ID username enumeration tool.
 source venv/bin/activate && python oh365userfinder.py -d target.com
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/Oh365UserFinder](https://github.com/RedCloudOS/Oh365UserFinder)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

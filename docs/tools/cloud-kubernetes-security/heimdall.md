@@ -16,6 +16,10 @@ AWS attack-path scanner covering privilege escalation across 10+ services.
 source venv/bin/activate && heimdall iam scan
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/heimdall](https://github.com/RedCloudOS/heimdall)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

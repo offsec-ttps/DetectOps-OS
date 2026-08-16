@@ -16,6 +16,10 @@ Comprehensive scanner for exposed/misconfigured Google Cloud resources.
 source venv/bin/activate && python scanner.py
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/gcp_scanner](https://github.com/RedCloudOS/gcp_scanner)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

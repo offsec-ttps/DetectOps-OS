@@ -14,6 +14,10 @@ Credential extraction from Windows memory — staged, Windows-only.
     authorized engagements only
 
 
+## Reference
+
+[https://github.com/gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz)
+
 ---
 
 *Part of the **AD & Enterprise Security** toolset in DetectOps.*

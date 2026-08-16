@@ -14,6 +14,10 @@ Automated cloud attack simulation with matching detection use cases, deployed as
     no fixed run command — deploys via its own Makefile/SAM pipeline into your AWS account; read BUILD-README.txt first
 
 
+## Reference
+
+[https://github.com/ReversecLabs/leonidas](https://github.com/ReversecLabs/leonidas)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

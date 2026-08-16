@@ -14,6 +14,10 @@ Requires a splunk.com login, so it can't be fetched during the build.
     see that README for the build-time steps — must go through `config/packages.chroot/`, not a hook drop-in, or the installer purges it on first boot
 
 
+## Reference
+
+[https://www.splunk.com/en_us/download/universal-forwarder.html](https://www.splunk.com/en_us/download/universal-forwarder.html)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

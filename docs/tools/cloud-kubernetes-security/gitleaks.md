@@ -12,6 +12,10 @@ Scans git history/filesystems for hardcoded secrets and credentials.
 gitleaks detect -v
 ```
 
+## Reference
+
+[https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

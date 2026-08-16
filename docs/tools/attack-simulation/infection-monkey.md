@@ -22,6 +22,10 @@ sudo docker run --name monkey-mongo --network=host --volume monkey-db:/data/db -
     no docker-compose.yml ships for a production deploy — it's a plain `docker run` sequence; pulls container images, needs internet the first time only
 
 
+## Reference
+
+[https://github.com/guardicore/monkey](https://github.com/guardicore/monkey)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

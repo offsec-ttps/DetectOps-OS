@@ -12,6 +12,10 @@ Lightweight log/metrics forwarder — the workhorse shipping side.
 sudo systemctl start fluent-bit   # configure /etc/fluent-bit/fluent-bit.conf first
 ```
 
+## Reference
+
+[https://github.com/fluent/fluent-bit](https://github.com/fluent/fluent-bit)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

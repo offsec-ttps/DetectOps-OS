@@ -10,6 +10,10 @@ Full packet-capture search-and-analysis system.
 
 `/opt/detectops/logging-siem/compose/arkime/README.txt`
 
+## Reference
+
+[https://github.com/arkime/arkime](https://github.com/arkime/arkime)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

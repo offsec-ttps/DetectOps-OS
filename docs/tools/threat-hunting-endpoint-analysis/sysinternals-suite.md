@@ -14,6 +14,10 @@ Autoruns, Process Monitor, Process Explorer, TCPView — staged, not run here.
     copy the zip to the Windows box you're analyzing and extract
 
 
+## Reference
+
+[https://learn.microsoft.com/en-us/sysinternals/](https://learn.microsoft.com/en-us/sysinternals/)
+
 ---
 
 *Part of the **Threat Hunting & Endpoint Analysis** toolset in DetectOps.*

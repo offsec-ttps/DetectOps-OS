@@ -16,6 +16,10 @@ Multi-cloud OSINT enumeration of public resources across AWS/Azure/GCP.
 source venv/bin/activate && python cloud_enum.py -k keyword
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/cloud_enum](https://github.com/RedCloudOS/cloud_enum)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

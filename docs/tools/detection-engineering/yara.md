@@ -12,6 +12,10 @@ The classic pattern-matching engine for files and memory.
 yara rule.yar sample.bin
 ```
 
+## Reference
+
+[https://github.com/VirusTotal/yara](https://github.com/VirusTotal/yara)
+
 ---
 
 *Part of the **Detection Engineering** toolset in DetectOps.*

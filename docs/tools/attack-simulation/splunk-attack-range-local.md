@@ -21,6 +21,10 @@ python attack_range_local.py -a build
     needs VT-x/AMD-V in firmware, internet on first build (downloads Splunk + Vagrant boxes), and RAM/CPU sized to the VMs enabled in attack_range_local.conf — change the default admin password there first
 
 
+## Reference
+
+[https://github.com/splunk/attack_range_local](https://github.com/splunk/attack_range_local)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

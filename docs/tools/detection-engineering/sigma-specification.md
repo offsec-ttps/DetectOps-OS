@@ -10,6 +10,10 @@ The formal Sigma rule-format spec, for reference while writing new rules.
 
 `/opt/detectops/detection-engineering/sigma-specification`
 
+## Reference
+
+[https://github.com/SigmaHQ/sigma-specification](https://github.com/SigmaHQ/sigma-specification)
+
 ---
 
 *Part of the **Detection Engineering** toolset in DetectOps.*

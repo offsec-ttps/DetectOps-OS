@@ -12,6 +12,10 @@ Vulnerability/misconfig scanner for images, filesystems, and IaC.
 trivy image nginx:latest
 ```
 
+## Reference
+
+[https://github.com/aquasecurity/trivy](https://github.com/aquasecurity/trivy)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

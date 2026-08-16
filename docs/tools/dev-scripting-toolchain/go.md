@@ -12,6 +12,10 @@ For building any of the Go-based tools from source.
 go build ./...
 ```
 
+## Reference
+
+[https://go.dev/](https://go.dev/)
+
 ---
 
 *Part of the **Dev / Scripting Toolchain** toolset in DetectOps.*

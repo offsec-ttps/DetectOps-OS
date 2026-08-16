@@ -17,6 +17,10 @@ source /opt/detectops/detection-engineering/venv/bin/activate
 sigma convert -t splunk -p sysmon rule.yml
 ```
 
+## Reference
+
+[https://github.com/SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma)
+
 ---
 
 *Part of the **Detection Engineering** toolset in DetectOps.*

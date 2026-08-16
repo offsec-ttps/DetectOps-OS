@@ -16,6 +16,10 @@ Rhino Security Labs' AWS exploitation framework — post-compromise enumeration 
 pacu-venv/bin/pacu
 ```
 
+## Reference
+
+[https://github.com/RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

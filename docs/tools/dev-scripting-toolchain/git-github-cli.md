@@ -12,6 +12,10 @@ Version control, plus `gh` for working with GitHub directly.
 gh auth login
 ```
 
+## Reference
+
+[https://cli.github.com/](https://cli.github.com/)
+
 ---
 
 *Part of the **Dev / Scripting Toolchain** toolset in DetectOps.*

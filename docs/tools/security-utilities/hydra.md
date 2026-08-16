@@ -12,6 +12,10 @@ Online credential brute-forcing across dozens of protocols.
 hydra -l admin -P wordlist.txt ssh://10.0.0.5
 ```
 
+## Reference
+
+[https://github.com/vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
+
 ---
 
 *Part of the **Security Utilities** toolset in DetectOps.*

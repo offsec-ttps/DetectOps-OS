@@ -16,6 +16,10 @@ Grafana's log-aggregation backend, indexed by label not full text.
 loki --config.file=loki-config.yaml
 ```
 
+## Reference
+
+[https://github.com/grafana/loki](https://github.com/grafana/loki)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

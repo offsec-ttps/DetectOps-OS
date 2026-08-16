@@ -16,6 +16,10 @@ AWS IAM username enumeration and password-spraying tool.
 source venv/bin/activate && python AWeSomeUserFinder.py
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/AWeSomeUserFinder](https://github.com/RedCloudOS/AWeSomeUserFinder)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

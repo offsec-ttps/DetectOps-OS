@@ -12,6 +12,10 @@ Command-line JSON and YAML processors, for scripting Detection-as-Code pipelines
 cat rule.yml | yq '.detection'
 ```
 
+## Reference
+
+[https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
+
 ---
 
 *Part of the **Dev / Scripting Toolchain** toolset in DetectOps.*

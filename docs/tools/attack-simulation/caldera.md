@@ -21,6 +21,10 @@ python3 server.py --insecure   # or: start-caldera, or menu → 1
     browse to `http://<vm-ip>:8888` — red/blue credentials print to the console on first start
 
 
+## Reference
+
+[https://github.com/apache/caldera](https://github.com/apache/caldera)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

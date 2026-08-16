@@ -12,6 +12,10 @@ Packet capture and inspection, GUI and CLI.
 wireshark   # GUI, or: sudo tcpdump -i eth0 -w cap.pcap
 ```
 
+## Reference
+
+[https://www.wireshark.org/](https://www.wireshark.org/)
+
 ---
 
 *Part of the **Network Security** toolset in DetectOps.*

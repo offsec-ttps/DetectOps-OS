@@ -16,6 +16,10 @@ Endpoint visibility and DFIR at scale — one static binary, client or server.
 velociraptor gui
 ```
 
+## Reference
+
+[https://github.com/Velocidex/velociraptor](https://github.com/Velocidex/velociraptor)
+
 ---
 
 *Part of the **Threat Hunting & Endpoint Analysis** toolset in DetectOps.*

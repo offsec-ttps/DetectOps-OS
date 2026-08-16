@@ -16,6 +16,10 @@ Rapid triage of Windows forensic artefacts, shipped with its Sigma-mapped rulese
 chainsaw hunt ./evtx_dir -s chainsaw-rules/chainsaw/sigma --mapping chainsaw-rules/chainsaw/mappings/sigma-event-logs-all.yml
 ```
 
+## Reference
+
+[https://github.com/WithSecureLabs/chainsaw](https://github.com/WithSecureLabs/chainsaw)
+
 ---
 
 *Part of the **Threat Hunting & Endpoint Analysis** toolset in DetectOps.*

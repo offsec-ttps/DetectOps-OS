@@ -12,6 +12,10 @@ Automated SQL-injection testing and web-server vuln scanning.
 sqlmap -u "https://target/?id=1"
 ```
 
+## Reference
+
+[https://github.com/sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap)
+
 ---
 
 *Part of the **Security Utilities** toolset in DetectOps.*

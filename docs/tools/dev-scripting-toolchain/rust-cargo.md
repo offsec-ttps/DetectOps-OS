@@ -12,6 +12,10 @@ For the Rust-based tools (Chainsaw, Hayabusa, YARA-X all began here).
 cargo build --release
 ```
 
+## Reference
+
+[https://www.rust-lang.org/](https://www.rust-lang.org/)
+
 ---
 
 *Part of the **Dev / Scripting Toolchain** toolset in DetectOps.*

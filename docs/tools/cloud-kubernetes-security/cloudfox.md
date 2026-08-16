@@ -12,6 +12,10 @@ Situational-awareness enumeration for cloud penetration tests (BishopFox).
 cloudfox aws all-checks
 ```
 
+## Reference
+
+[https://github.com/BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

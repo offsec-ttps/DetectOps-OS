@@ -16,6 +16,10 @@ The reference library/scripts for Windows protocol abuse (SMB, Kerberos, DCOM…
 source venv/bin/activate && secretsdump.py domain/user:pass@dc-ip
 ```
 
+## Reference
+
+[https://github.com/fortra/impacket](https://github.com/fortra/impacket)
+
 ---
 
 *Part of the **AD & Enterprise Security** toolset in DetectOps.*

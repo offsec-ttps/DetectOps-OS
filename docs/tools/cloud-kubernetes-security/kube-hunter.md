@@ -16,6 +16,10 @@ Hunts for exploitable weaknesses in a Kubernetes cluster.
 kube-hunter-venv/bin/kube-hunter --remote <cluster-ip>
 ```
 
+## Reference
+
+[https://github.com/aquasecurity/kube-hunter](https://github.com/aquasecurity/kube-hunter)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

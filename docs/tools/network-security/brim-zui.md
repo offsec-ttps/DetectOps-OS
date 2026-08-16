@@ -12,6 +12,10 @@ Desktop app for searching Zeek logs and pcaps side by side.
 zui   # or launch "Zui" from the applications menu
 ```
 
+## Reference
+
+[https://github.com/brimdata/zui](https://github.com/brimdata/zui)
+
 ---
 
 *Part of the **Network Security** toolset in DetectOps.*

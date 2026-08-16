@@ -17,6 +17,10 @@ pwsh
 Invoke-AtomicTest T1082
 ```
 
+## Reference
+
+[https://github.com/redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

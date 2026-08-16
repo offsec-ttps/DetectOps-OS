@@ -14,6 +14,10 @@ Commercial BAS tool — free tier requires a Prelude account, so it isn't pre-bu
     sign up at prelude.org, download yourself, drop the binary in that folder
 
 
+## Reference
+
+[https://www.prelude.org/](https://www.prelude.org/)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

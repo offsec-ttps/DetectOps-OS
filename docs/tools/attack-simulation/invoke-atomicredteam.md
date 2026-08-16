@@ -14,6 +14,10 @@ The PowerShell runner for Atomic Red Team. Auto-imported in every pwsh session.
     loaded by `~/.config/powershell/Microsoft.PowerShell_profile.ps1` — nothing to activate manually
 
 
+## Reference
+
+[https://github.com/redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

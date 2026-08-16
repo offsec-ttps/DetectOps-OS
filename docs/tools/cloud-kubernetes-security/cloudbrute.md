@@ -20,6 +20,10 @@ cloudbrute -d target.com -k company -w data/storage_small.txt
     -w/wordlist is required (not optional); config folder defaults to ./config, no need to pass -C since the launcher already cd's into the tool's own directory
 
 
+## Reference
+
+[https://github.com/0xsha/CloudBrute](https://github.com/0xsha/CloudBrute)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

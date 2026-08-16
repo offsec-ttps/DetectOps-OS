@@ -16,6 +16,10 @@ AWS/Azure/GCP/K8s CIS-benchmark and best-practice auditing.
 prowler-venv/bin/prowler aws
 ```
 
+## Reference
+
+[https://github.com/prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

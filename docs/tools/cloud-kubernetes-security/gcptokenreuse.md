@@ -16,6 +16,10 @@ Single-script tool that reuses a compromised GCP OAuth token across scopes/servi
 python Gcp-Token-Updater.py
 ```
 
+## Reference
+
+[https://github.com/RedCloudOS/GCPTokenReuse](https://github.com/RedCloudOS/GCPTokenReuse)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

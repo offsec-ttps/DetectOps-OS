@@ -12,6 +12,10 @@ Directory/vhost/parameter fuzzing for web app recon.
 gobuster dir -u https://target -w wordlist.txt
 ```
 
+## Reference
+
+[https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
+
 ---
 
 *Part of the **Security Utilities** toolset in DetectOps.*

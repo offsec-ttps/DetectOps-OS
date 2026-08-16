@@ -12,6 +12,10 @@ Protocol-aware network monitor that turns traffic into structured logs.
 sudo zeek -i eth0   # or: zeekctl deploy
 ```
 
+## Reference
+
+[https://github.com/zeek/zeek](https://github.com/zeek/zeek)
+
 ---
 
 *Part of the **Network Security** toolset in DetectOps.*

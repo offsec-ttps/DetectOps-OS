@@ -20,6 +20,10 @@ python msInvader.py -c config.yaml
     no pinned requirements.txt upstream — install deps yourself first, see BUILD-README.txt
 
 
+## Reference
+
+[https://github.com/mvelazc0/msInvader](https://github.com/mvelazc0/msInvader)
+
 ---
 
 *Part of the **Attack Simulation** toolset in DetectOps.*

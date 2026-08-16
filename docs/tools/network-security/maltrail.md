@@ -17,6 +17,10 @@ menu → 4, or:
 sudo venv/bin/python3 sensor.py
 ```
 
+## Reference
+
+[https://github.com/stamparm/maltrail](https://github.com/stamparm/maltrail)
+
 ---
 
 *Part of the **Network Security** toolset in DetectOps.*

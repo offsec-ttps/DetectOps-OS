@@ -16,6 +16,10 @@ IDS/IPS engine (installed from bookworm-backports — not in Debian's main archi
 sudo suricata -i eth0 -S suricata-rules/emerging-all.rules
 ```
 
+## Reference
+
+[https://github.com/OISF/suricata](https://github.com/OISF/suricata)
+
 ---
 
 *Part of the **Network Security** toolset in DetectOps.*

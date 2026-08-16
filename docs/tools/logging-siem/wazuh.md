@@ -14,6 +14,10 @@ Open-source XDR/SIEM. Upstream's own compose changes per release, so it's fetche
     clone `wazuh/wazuh-docker` yourself the first time you're online
 
 
+## Reference
+
+[https://github.com/wazuh/wazuh-docker](https://github.com/wazuh/wazuh-docker)
+
 ---
 
 *Part of the **Logging & SIEM** toolset in DetectOps.*

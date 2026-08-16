@@ -12,6 +12,10 @@ Kubernetes penetration-testing tool for privilege escalation inside a cluster.
 peirates
 ```
 
+## Reference
+
+[https://github.com/inguardians/peirates](https://github.com/inguardians/peirates)
+
 ---
 
 *Part of the **Cloud & Kubernetes Security** toolset in DetectOps.*

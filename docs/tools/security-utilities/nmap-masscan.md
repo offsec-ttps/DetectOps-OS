@@ -12,6 +12,10 @@ Port scanning — thorough (Nmap) or internet-scale fast (Masscan).
 nmap -sV -p- 10.0.0.0/24
 ```
 
+## Reference
+
+[https://nmap.org/](https://nmap.org/)
+
 ---
 
 *Part of the **Security Utilities** toolset in DetectOps.*

@@ -12,6 +12,10 @@ pip, venv, and dev headers all included.
 python3 -m venv env
 ```
 
+## Reference
+
+[https://www.python.org/](https://www.python.org/)
+
 ---
 
 *Part of the **Dev / Scripting Toolchain** toolset in DetectOps.*

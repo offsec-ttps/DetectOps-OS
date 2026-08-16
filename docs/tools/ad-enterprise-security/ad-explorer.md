@@ -10,6 +10,10 @@ Sysinternals' AD viewer/snapshot tool — staged, Windows-only.
 
 `/opt/detectops/windows-tools/AdExplorer.zip`
 
+## Reference
+
+[https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer](https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer)
+
 ---
 
 *Part of the **AD & Enterprise Security** toolset in DetectOps.*
