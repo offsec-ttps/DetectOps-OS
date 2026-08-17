@@ -8,6 +8,14 @@ Installing for the first time, or hit something unexpected? See
 [Troubleshooting](troubleshooting.md) for verified environments, checksum
 verification, and known install issues.
 
+## Download
+
+Get the ISO, `SHA256SUMS`, and reassembly instructions from the
+[latest GitHub Release](https://github.com/offsec-ttps/DetectOps-OS/releases/tag/v1.0.0). The image is split into five
+2GB parts (GitHub's per-file cap) — the release page includes a
+`REASSEMBLE.md` with `cat`/PowerShell steps to rebuild the single ISO,
+plus the SHA256 to verify it before booting.
+
 ## Quick start
 
 | | |

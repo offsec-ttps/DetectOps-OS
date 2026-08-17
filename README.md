@@ -72,6 +72,9 @@ signup, your own cloud credentials, etc.) called out clearly.
 
 ## Quick start
 
+**[Download the ISO →](https://github.com/offsec-ttps/DetectOps-OS/releases/tag/v1.0.0)** (split into 5 parts + checksum — see the release page for reassembly steps)
+
+
 | | |
 |---|---|
 | **Login** | `detectops` / `detectops` — passwordless `sudo` |
